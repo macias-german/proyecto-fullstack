@@ -21,6 +21,7 @@
     --card-3: #FF8A65;
     --meter-bars: #D19BFF;
     --borders: #2A2D3A;
+    --light: #525563;
 }
 
 /* ---------- CONFIGURACION BODY, HEADER, SECTION ---------- */
@@ -84,3 +85,38 @@ header button:hover {
 }
 
 /* ---------- PRIMER DIV: WRITE-AREA ---------- */
+
+.write-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.write-area h1 {
+    font-size: 65px;
+    text-align: center;
+    width: 75%;
+    color: var(--primary-text);
+}
+
+.write-area textarea {
+    background-color: var(--secondary-bg);
+    color: var(--secondary-text);
+    height: 200px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    line-height: 2;
+    font-size: 15px;
+    border: solid 3px;
+    border-color: var(--borders);
+    resize: none;
+}
+
+.write-area textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px var(--light);
+}
