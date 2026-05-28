@@ -1,5 +1,24 @@
+/* ---------- CONFIGURACION GENERAL ---------- */
+@font-face {
+    font-family: inter;
+    src: url(./assets/fonts/inter.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: inter;
+}
+
+:root {
+    --primary-bg: #12131A;
+    --secondary-bg: #1C1F2A;
+    --primary-text: #F2F2F7;
+    --secondary-text: #B4B7C9;
+    --card-1: #C99DFF;
+    --card-2: #FFB21E;
+    --card-3: #FF8A65;
+    --meter-bars: #D19BFF;
+    --borders: #2A2D3A;
 }
