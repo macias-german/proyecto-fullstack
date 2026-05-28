@@ -37,8 +37,8 @@ body {
 
 section {
     background-color: var(--primary-bg);
-    height: 800px;
-    width: 800px;
+    height: 1000px;
+    width: 1000px;
     padding: 15px;
 }
 
@@ -104,7 +104,7 @@ header button:hover {
 .write-area textarea {
     background-color: var(--secondary-bg);
     color: var(--secondary-text);
-    height: 200px;
+    height: 150px;
     width: 100%;
     padding: 15px;
     border-radius: 10px;
@@ -151,4 +151,51 @@ header button:hover {
 .checkbox label input:checked {
     background-color: var(--secondary-text);
     box-shadow: 0 0 10px var(--light);
+}
+
+/* ---------- TERCER DIV: GENERAL-COUNTER ---------- */
+.general-counter {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 125px;
+    gap: 20px;
+    color: var(--primary-bg);
+    font-size: 50px;
+    margin-top: 25px;
+}
+
+.general-counter p {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.counter-1, .counter-2, .counter-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    padding:35px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;;
+}
+
+.counter-1:hover, .counter-2:hover, .counter-3:hover {
+    scale: 1.05;
+    box-shadow: 0 0 20px var(--light);
+    transition: 0.3s;
+}
+
+.counter-1 {
+    background-image: url(./assets/images/purple-bg.webp);
+    
+}
+
+.counter-2 {
+    background-image: url(./assets/images/yellow-bg.webp);
+}
+
+.counter-3 {
+    background-image: url(./assets/images/orange-bg.webp);
 }
