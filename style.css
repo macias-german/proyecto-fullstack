@@ -181,15 +181,8 @@ header button:hover {
     background-size: 100% 100%;;
 }
 
-.counter-1:hover, .counter-2:hover, .counter-3:hover {
-    scale: 1.05;
-    box-shadow: 0 0 20px var(--light);
-    transition: 0.3s;
-}
-
 .counter-1 {
-    background-image: url(./assets/images/purple-bg.webp);
-    
+    background-image: url(./assets/images/purple-bg.webp);  
 }
 
 .counter-2 {
@@ -198,4 +191,48 @@ header button:hover {
 
 .counter-3 {
     background-image: url(./assets/images/orange-bg.webp);
+}
+
+.counter-1:hover, .counter-2:hover, .counter-3:hover {
+    scale: 1.05;
+    box-shadow: 0 0 20px var(--light);
+    transition: 0.3s;
+}
+
+/* ---------- CUARTO DIV: PERCENTAGE ---------- */
+.percentage {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 15px;
+    margin-top: 20px;
+    color: var(--primary-text);
+    font-size: 20px;
+}
+
+.meter-list {
+    list-style: none;
+    color: var(--secondary-text);
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.meter-list label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.meter-list .letter {
+    width: 20px;
+    text-align: center;
+}
+
+.meter-list meter {
+    width: 700px;
+    height: 15px;
 }
