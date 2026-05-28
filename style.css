@@ -85,7 +85,6 @@ header button:hover {
 }
 
 /* ---------- PRIMER DIV: WRITE-AREA ---------- */
-
 .write-area {
     display: flex;
     flex-direction: column;
@@ -111,12 +110,45 @@ header button:hover {
     border-radius: 10px;
     line-height: 2;
     font-size: 15px;
-    border: solid 3px;
-    border-color: var(--borders);
+    border: solid 3px var(--borders);
     resize: none;
 }
 
 .write-area textarea:focus {
     outline: none;
     box-shadow: 0 0 5px var(--light);
+}
+
+/* ---------- SEGUNDO DIV: CONTROLS ---------- */
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    color: var(--secondary-text);
+}
+
+.checkbox {
+    display: flex;
+    gap: 25px;
+}
+
+.checkbox label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.checkbox label input {
+    appearance: none;
+    height: 18px;
+    width: 18px;
+    border: solid 2px var(--secondary-text);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.checkbox label input:checked {
+    background-color: var(--secondary-text);
+    box-shadow: 0 0 10px var(--light);
 }
