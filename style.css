@@ -22,3 +22,65 @@
     --meter-bars: #D19BFF;
     --borders: #2A2D3A;
 }
+
+/* ---------- CONFIGURACION BODY, HEADER, SECTION ---------- */
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-bg);
+    color: white;
+}
+
+section {
+    background-color: var(--primary-bg);
+    height: 800px;
+    width: 800px;
+    padding: 15px;
+}
+
+header {
+    color: var(--secondary-text);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+hgroup {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+hgroup img {
+    height: 100%;
+}
+
+header button {
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--borders);
+    cursor: pointer;
+}
+
+header button img {
+    width: 80%;
+    height: 80%;
+}
+
+header button:hover {
+    background-color: var(--secondary-bg);
+    border: solid;
+    border-color: var(--borders);
+}
+
+/* ---------- PRIMER DIV: WRITE-AREA ---------- */
