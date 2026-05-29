@@ -261,7 +261,26 @@ header button:hover {
 .percentage details summary {
     list-style: none;
     cursor: pointer;
-    display: inline;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    width: max-content;
     font-size: 15px;
     color: var(--secondary-text);
+}
+
+.percentage details summary::after {
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-bottom: 2px solid var(--secondary-text);
+    border-right: 2px solid var(--secondary-text);
+    transform: rotate(45deg);
+    margin-left: 15px;
+    user-select: none;
+}
+
+.percentage details[open] summary::after {
+    transform: rotate(225deg);
 }
