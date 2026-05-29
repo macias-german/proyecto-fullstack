@@ -11,6 +11,10 @@
     font-family: inter;
 }
 
+html {
+    scrollbar-gutter: stable;
+}
+
 :root {
     --primary-bg: #12131A;
     --secondary-bg: #1C1F2A;
@@ -29,7 +33,7 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     background-color: var(--primary-bg);
     color: white;
@@ -252,4 +256,12 @@ header button:hover {
 .meter-list meter::-webkit-meter-optimum-value {
     background-color: var(--meter-bars);
     border-radius: 5px;
+}
+
+.percentage details summary {
+    list-style: none;
+    cursor: pointer;
+    display: inline;
+    font-size: 15px;
+    color: var(--secondary-text);
 }
