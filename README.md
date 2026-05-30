@@ -7,7 +7,7 @@ El objetivo final del proyecto es crear un contador de caracteres que sea capaz 
 - _Cantidad total de caracteres en el texto._
 - _Cantidad total de palabras en el texto._
 - _Cantidad total de párrafos en el texto._
-- _Cantidad total y porcentual del uso de cada letra única en el texto._
+- _Cantidad total y porcentual del uso de cada caracter único en el texto._
 
 
 ## Desarrollo y estado actual.
@@ -24,15 +24,15 @@ El proyecto sé ira desarrollando en varias faces a lo largo del tiempo, sé ira
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 
-- _Actualmente el proyecto utilizá únicamente HTML5 y CSS3. En vista al futuro el proyecto ira incorporando más funcionalidades y tecnologías._
+Actualmente el proyecto utilizá únicamente HTML5 y CSS3. En vista al futuro el proyecto ira incorporando más funcionalidades y tecnologías.
 
 
 ## Organización del HTML.
-_El HTML se organizo todo dentro de un 'section', el mismo cuenta con un header donde se ubica la informacion del sitio y luego se separo el contenido en 'div' el cual cada uno cuenta con su propia clase para identificar de que se trata cada apartado.
+El HTML se organizo todo dentro de un 'section', el mismo cuenta con un header donde se ubica la informacion del sitio y luego se separo el contenido en 'div' el cual cada uno cuenta con su propia clase para identificar de que se trata cada apartado.
 
 
 ## Resolución del CSS.
-_El CSS se realizó y organizo siguiendo el mismo orden aplicado en el HTML, se utilización comentarios para separar cada zona del proyecto, comenzando con un general donde se aplicaron los reseteos y se declararon las variables y seguido por la configuración especifica de cada section y div utilizado a lo largo del proyecto._
+El CSS se realizó y organizo siguiendo el mismo orden aplicado en el HTML, se utilización comentarios para separar cada zona del proyecto, comenzando con un general donde se aplicaron los reseteos y se declararon las variables y seguido por la configuración especifica de cada section y div utilizado a lo largo del proyecto.
 
 
 ## Dificultades encontradas durante el desarrollo.
